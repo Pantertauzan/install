@@ -13,3 +13,4 @@ $apps = @(
 foreach ($app in $apps) {
     winget install -e --id $app --accept-source-agreements --accept-package-agreements
 }
+Write-Host "All apps processed successfully!" -ForegroundColor Green
