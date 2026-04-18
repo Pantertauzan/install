@@ -5,7 +5,9 @@ $apps = @(
     "Discord.Discord",
     "Spotify.Spotify",
     "CPUID.HWMonitor",
-    "Nvidia.GeForceExperience"
+    "Nvidia.GeForceExperience",
+    "VideoLAN.VLC",
+    "Google.Chrome"
 )
 
 foreach ($app in $apps) {
